@@ -209,3 +209,45 @@ __marimo__/
 # --- OS 생성 파일 ---
 .DS_Store
 Thumbs.db
+
+# === Spark-Scala & SBT ===
+# SBT 관련 파일
+.history
+.lib/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.pki/
+
+# Scala 컴파일러 및 IDE 캐시
+*.class
+*.pyc
+*.swp
+.cache-main
+.cache-tests
+.bsp/
+.metals/
+.ammonite/
+
+# IntelliJ IDEA (Scala 플러그인 사용 시)
+.idea/modules.xml
+.idea/scala_settings.xml
+.idea/libraries/
+*.iml
+*.iws
+
+# Spark 로그 및 체크포인트 (로컬 테스트용)
+checkpoint/
+spark-warehouse/
+metastore_db/
+derby.log
+eventLog/
+
+# Bloop (Scala 빌드 서버)
+.bloop/
+
+# Metals (Scala 언어 서버)
+.metals/
+.bloop/
